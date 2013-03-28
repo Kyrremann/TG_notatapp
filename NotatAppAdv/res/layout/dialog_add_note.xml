@@ -10,15 +10,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Note title" />
+        android:hint="@string/dialog_title" />
 
     <EditText
         android:id="@+id/dialog_note"
         android:layout_width="match_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Type note here"
-        android:inputType="textMultiLine" >
+        android:gravity="top"
+        android:hint="@string/dialog_note"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:singleLine="false" >
 
         <requestFocus />
     </EditText>

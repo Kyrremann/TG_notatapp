@@ -1,3 +1,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
+    <item
+        android:id="@+id/action_share_note"
+        android:icon="@android:drawable/ic_menu_share"
+        android:orderInCategory="0"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_share_note">
+    </item>
+
 </menu>
